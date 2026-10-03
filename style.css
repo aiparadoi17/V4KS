@@ -16,3 +16,5 @@
 @media print{.card-preview-wrap{break-inside:avoid}.idcard-modern{box-shadow:none}.idcard-modern.has-template{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 
 .scan-counter{margin:10px 0;padding:14px;border-radius:12px;background:#f5f7fb;font-size:16px}.scan-counter strong{font-size:28px}.scan-success,.scan-error{margin-top:12px;padding:14px;border-radius:10px}.scan-success{background:#eaf8ef;color:#176b3a}.scan-error{background:#fff0f0;color:#a12626}.badge{display:inline-block;padding:6px 10px;border-radius:999px;background:#eef2f7;font-weight:600}
+.report-head{display:flex;align-items:center;justify-content:center;gap:18px;text-align:center;margin-bottom:16px}.report-logo-wrap{width:82px;min-width:82px;height:82px;display:flex;align-items:center;justify-content:center}.report-logo{width:78px;height:78px;object-fit:contain}.report-head h2,.report-head h3{margin:2px 0}.report-head p{margin:6px 0 0}.report-print .table-wrap{overflow:auto}
+@media print{.report-logo{max-width:78px;max-height:78px}.report-head{break-inside:avoid}}
